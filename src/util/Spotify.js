@@ -2,7 +2,7 @@ const Spotify = {
     clientId: process.env.REACT_APP_USER_ID,
     accessToken: '',
     tokenExpiry: null,
-    redirectURI: process.env.REACT_APP_REDIRECT_URI,
+    redirectURI: 'http://localhost:3000',
     generateURLState() {
         sessionStorage.urlState = Math.floor(Math.random() * 100000).toString();
     },
