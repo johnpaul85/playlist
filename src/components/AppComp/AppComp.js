@@ -9,7 +9,7 @@ export default function AppComp(props) {
     const { playlistTracks, searchTracks, searchPhrase, handleSearchChange, playlistName, handleListNameChange, addTrack, removeTrack, search, savePlaylist, playTrack, pauseTrack, isTrackPlayed, playlists, clearPlaylist, removePlaylist, isCurrentPlaylistOnList, hasCheckedForPlaylists, getPlaylistDetails, isSavedPlaylistAltered } = props;
     return (
         <div>
-            <h1>Ja<span className="highlight">mmm</span>ing</h1>
+            <h1>Play<span className="highlight">List</span></h1>
             <div className="App">
                 <SearchBar 
                     searchPhrase={searchPhrase}
